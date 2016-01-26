@@ -1,0 +1,26 @@
+{
+  "scripts": {
+    "build": "jspm bundle-sfx --minify app/main",
+    "dev": "live-server",
+    "lint": "eslint  ./app"
+  },
+  "jspm": {
+    "dependencies": {
+      "jsonp": "npm:jsonp@^0.2.0",
+      "react": "npm:react@^0.14.6",
+      "react-dom": "npm:react-dom@^0.14.6"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  },
+  "devDependencies": {
+    "babel-eslint": "^5.0.0-beta6",
+    "eslint": "^1.10.3",
+    "eslint-plugin-react": "^3.16.1",
+    "jspm": "^0.16.24",
+    "live-server": "^0.9.1"
+  }
+}
